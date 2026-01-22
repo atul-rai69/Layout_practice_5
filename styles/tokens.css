@@ -1,0 +1,67 @@
+:root{
+  --font-family-heading: "Poppins", system-ui, sans-serif;
+  --font-family-body: "Roboto", system-ui, sans-serif;
+
+
+  --container-wide: 1287px;
+  --container-narrow: 1140px;
+
+  --font-size-base: 18px;
+  --font-size-sm: 16px;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --font-size-h1: clamp(2rem, 0.307rem + 4.514vw, 4.37rem);
+  --font-size-h3: clamp(1.7rem, 0.686rem + 2.705vw, 3.12rem);
+  --font-size-h4: 1.5rem;
+
+
+  --color-text-primary: #131313;
+  --color-contrast-light: #ffffff;
+  --color-contrast-dark: #131313;
+  --color-text-muted: #3E3E3E;
+  --heading-dark: #5C5C5C;
+  --heading-light:#FFFFFF;
+  --secondary-text-dark: #787878;
+  --secondary-text-light: #ffffff;
+
+  --color-primary: #EE0000;
+  --color-primary-hover: #de0e0e;
+  --shadow-sm: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0px 4px 30px rgba(0, 0, 0, 0.25);
+
+  --overlay-gradient-dark: linear-gradient(
+    to right,
+    rgba(0,0,0,1) 19%,
+    rgba(0,0,0,0) 82%
+  );
+  --overlay-card-gradient:linear-gradient(
+  to bottom,
+  rgba(19, 19, 19, 1) 11%,
+  rgba(19, 19, 19, 0) 100%
+  );
+
+  --bg-primary:#ffffff;
+  --bg-inverse: #EE0000;
+  --bg-accent-soft: #F4F4F4;
+  --bg-dark: #000000;
+
+  --surface-card: #F3F3F3;
+  --card-title: #464646;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 20px;
+
+  --text-card-title: 3.5rem;
+  --weight-card-title: 700;
+
+  --border-light-color: rgba(255,255,255,0.2);
+
+}
+
+
