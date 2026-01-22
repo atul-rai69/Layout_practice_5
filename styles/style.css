@@ -223,7 +223,7 @@ section{
 }
 .who-we-are-section .btn-group{
     display: flex;
-    gap: 30px;
+    gap: 20px;
     padding-top: 15px;
 }
 .btn-group button{
@@ -404,3 +404,4 @@ section{
     font-weight: var(--font-weight-regular);
     margin: 0;
 }
+
