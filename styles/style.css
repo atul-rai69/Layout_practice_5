@@ -11,7 +11,8 @@ body{
 }
  
 section{
-    padding: 100px 0 100px 0;
+    /* padding: 100px 0 100px 0; */
+    padding: clamp(0.938rem, -2.857rem + 10.119vw, 6.25rem) 0;
 }
 
 .container-wide {
@@ -47,9 +48,7 @@ section{
     color: var(--color-primary) !important;
 }
 
-.hero{
-     
-}
+
 .hero-content{
     background: url(../images/image\ 20.jpg);
     padding:  8rem 0;
@@ -80,6 +79,7 @@ section{
 
 .expertise-section{
     background-color: var(--bg-primary);
+    padding-top: clamp(0.938rem, -0.625rem + 4.167vw, 3.125rem);
 }
 .expertise-section h3{
     font-size: var(--font-size-h3);
